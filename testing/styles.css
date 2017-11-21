@@ -6,8 +6,8 @@ html{
 
 body{
     display: flex;
-    justify-content: center;
-    align-content: space-around;
+    justify-content: space-around;
+    align-content: center;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     flex-flow: column;
@@ -18,14 +18,15 @@ body{
 .MainTime{
     display: flex;
     justify-content: space-around;
-
 }
 
 ul{
     list-style: none;
     margin-right: 30px;
 }
+
 .Sites{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
