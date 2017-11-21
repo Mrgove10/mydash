@@ -1,11 +1,29 @@
+html{
+    background-image: "B1.jpg";
+    background-position: top;
+}
+
 body{
     display: flex;
     justify-content: space-around;
     align-content: center;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+    flex-flow: column;
+    background-color: #000000;
+    color: white;
+
 }
 
 MainTime{
     display: flex;
     justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    margin-right: 30px;
+}
+Sites{
+    flex-direction: row;
 }
