@@ -22,17 +22,16 @@
         ?>
     </section>
     <section class="Sites">
-
-        <ul>
-            <li><a href="http://www.google.com">google</a></li>
-            <li><a href="http://www.Youtube.com">youtube</a></li>
-            <li>twitter</li>
-            <li>facebook</li>
-            <li>netflix</li>
+        <ul class="divers">
+            <li>Divertissement</li>
+            <li><a href="http://www.Youtube.com">Youtube</a></li>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.netflix.com/fr/">Netflix</a></li>
         </ul>
         <ul>
-            <li>facebook</li>
-            <li>netflix</li>
+            <li>Utilitaire</li>
+            <li><a href="http://www.google.com">Google</a></li>
         </ul>
     </section>
 
