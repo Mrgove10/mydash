@@ -1,29 +1,31 @@
 html{
-    background-image: "B1.jpg";
+    background-image: url("Backgrounds/B1.jpg");
     background-position: top;
+    background-repeat: no-repeat;
 }
 
 body{
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+    align-content: space-around;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     flex-flow: column;
-    background-color: #000000;
     color: white;
 
 }
 
-MainTime{
+.MainTime{
     display: flex;
     justify-content: space-around;
+
 }
 
 ul{
     list-style: none;
     margin-right: 30px;
 }
-Sites{
+.Sites{
+    display: flex;
     flex-direction: row;
 }
