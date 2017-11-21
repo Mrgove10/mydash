@@ -1,8 +1,31 @@
 html{
+<<<<<<< HEAD
+    background-image: url("bouge(1).gif");
+    background-position: top;
+=======
     background-image: url("Backgrounds/B1.jpg");
     background-position: top;
     background-repeat: no-repeat;
+>>>>>>> parent of adbc960... changed style
 }
+/*html{
+    background-image: url("bouge(2).gif");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}*/
+/*html{
+    background-image: url("bouge(3bis).gif");
+    background-position: top;
+}*/
+/*html{
+    background-image: url("bouge(4).gif");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}*/
 
 body{
     display: flex;
@@ -33,8 +56,29 @@ body{
 
 }
 
-ul{
+ul li{
     list-style: none;
     margin-right: 30px;
 }
 
+<<<<<<< HEAD
+
+a{
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+=======
+>>>>>>> parent of adbc960... changed style
