@@ -13,6 +13,13 @@
     </header>
     <section class="MainTime">
         <h1>it is</h1>
+        <?php
+        setlocale(LC_TIME, 'fra_fra');
+        echo strftime('%A %d %B %Y');?>
+        <br>
+        <?php
+        echo strftime('%H:%M');
+        ?>
     </section>
     <section class="Sites">
         <a href="http://www.google.com">google</a>
