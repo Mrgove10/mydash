@@ -7,7 +7,7 @@ html{
 body{
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     flex-flow: column;
@@ -16,8 +16,17 @@ body{
 }
 
 .MainTime{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Sites{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-content: center;
 }
 
 ul{
@@ -25,8 +34,3 @@ ul{
     margin-right: 30px;
 }
 
-.Sites{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
