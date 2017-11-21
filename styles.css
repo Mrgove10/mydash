@@ -20,13 +20,17 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 250%;
 }
 
 .Sites{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: center;
+    align-content: flex-end;
+    position: fixed;
+    bottom: 0;
+
 }
 
 ul{
