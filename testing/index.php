@@ -5,16 +5,16 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!-- utilisation d'un google font -->
     <meta charset="utf-8">
     <span id="hautDePage"> </span>
+    <?php
+    setlocale(LC_TIME, 'fra_fra');
+    ?>
 </head>
 <body>
     <header>
 
-
     </header>
     <section class="MainTime">
-        <h1>it is</h1>
         <?php
-        setlocale(LC_TIME, 'fra_fra');
         echo strftime('%A %d %B %Y');?>
         <br>
         <?php
@@ -22,12 +22,15 @@
         ?>
     </section>
     <section class="Sites">
-        <a href="http://www.google.com">google</a>
+
+        <ul>
+            <li><a href="http://www.google.com">google</a></li>
+            <li><a href="http://www.Youtube.com">youtube</a></li>
+            <li>twitter</li>
+            <li>facebook</li>
+            <li>netflix</li>
+        </ul>
     </section>
-
-
-
-
 
     <footer>
         <!-- GOOGLE ANALITYCS HERE-->
